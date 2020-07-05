@@ -1,0 +1,111 @@
+html, body {
+    height: 100%;
+}
+
+header {
+    height: 80px;
+}
+
+main {
+    height: 500px;
+}
+
+.nav-bar {
+    display: inline;
+    background-color: yellow;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    color:black;
+}
+
+.left-side {
+    float: left;
+    padding: 25px 0px 0px 25px;
+}
+
+.left-side a {
+    padding-left: 10px;
+}
+
+.right-side {
+    float: right;
+    padding: 25px 100px 0px 0px;
+}
+
+.right-side a {
+    padding-right: 10px;
+}
+
+.right-side img {
+    /* position: absolute; */
+    margin-bottom: 40px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 160px;
+}
+
+.search-bar {
+    margin: 0 auto;
+    width: 575px;
+    height: 50px;
+}
+
+
+.search-bar input {
+    height: 45px;
+    width: 575px;
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    margin-top: 25px;
+}
+
+.search-icon {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.microphone-icon {
+    position: absolute;
+    margin-left: 535px;
+    margin-top: 35px;
+}
+
+.buttons {
+    height: 100px;
+ 
+}
+
+.google-search {
+    color: rgba(0, 0, 0, 0.692);
+    height: 20px;
+    width: 120px;
+    padding: 7px 3px 7px 3px;
+    box-sizing: content-box;
+    margin-top: 30px;
+    margin-left: 155px;
+    border: none;
+}
+
+.feeling-lucky {
+    color: rgba(0, 0, 0, 0.692);
+    height: 20px;
+    width: 120px;
+    padding: 7px 3px 7px 3px;
+    box-sizing: content-box;
+    float: right;
+    margin-top: 30px;
+    margin-right: 155px;
+    border: none;
+}
+
+.google-apps {
+    display: inline-block;
+    margin-left: 100px;
+}
