@@ -12,13 +12,10 @@ main {
 
 .nav-bar {
     display: inline;
-    background-color: yellow;
 }
 
 .nav-bar a {
     text-decoration: none;
-    text-align: center;
-    display: inline;
     color:black;
 }
 
@@ -33,16 +30,11 @@ main {
 
 .right-side {
     float: right;
-    padding: 25px 100px 0px 0px;
+    padding: 25px 90px 0px 0px;
 }
 
 .right-side a {
     padding-right: 10px;
-}
-
-.right-side img {
-    /* position: absolute; */
-    margin-bottom: 40px;
 }
 
 .logo {
@@ -109,3 +101,31 @@ main {
     display: inline-block;
     margin-left: 100px;
 }
+
+.right-side-icons {
+    position: absolute;
+    float: right;
+    margin-left: 1200px;
+    margin-top: 20px;
+}
+
+.right-side-icons img {
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.left-side-footer {
+    float: left;
+    margin-top:590px;
+}
+
+.right-side-footer {
+    float: right;
+    margin-top: 590px;
+}
+
